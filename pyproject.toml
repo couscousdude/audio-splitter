@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "audio-splitter"
+version = "0.1.0"
+description = "Audio splitting utility"
+authors = ["Youwen Wu <youwenw@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydub = "^0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

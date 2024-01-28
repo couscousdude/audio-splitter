@@ -1,0 +1,5 @@
+files/*
+!files/sample_audio.m4a
+output/*
+!output/sample_audio/*
+.DS_STORE
