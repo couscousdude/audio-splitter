@@ -1,8 +1,8 @@
 from pydub import AudioSegment
 import os
 
-def format_file_name(fileName):
-    return "_".join(fileName.split(" ")).lower()
+def format_file_name(file_name):
+    return "_".join(file_name.split(" ")).lower()
 
 # converts timestamp in format mm:ss to seconds
 def mm_ss_2_s(time_string):
